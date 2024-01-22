@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background: linear-gradient(
+    325deg, 
+    #03001e 0%, 
+    #7300c0 30%,
+    #ec38bc 70%,
+    #fdeff9 100%
+    );
+    padding: 4rem 6rem;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}
+
+.reset {
+  padding: 1.5rem 2rem;
+  width: 100%;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.reset:focus {
+  color: #ec38bc;
+  background-color: #262809;
+}
+
+.game {
+  width: 43rem;
+  height: 43rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  transform-style: preserve-3d;
+  perspective: 50rem;
+}
+
+.item {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  font-size: 5rem;
+  transform: rotateY(0deg);
+  transition: .25s;
+}
+
+.item::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #404040;
+  transition: .25s;
+  transform: rotateY(0deg);
+  backface-visibility: hidden;
+}
+
+.item.boxOpen {
+  transform: rotateY(180deg);
+}
+
+.boxOpen::after,
+.boxMatch::after {
+  transform: rotateY(180deg);
+}
