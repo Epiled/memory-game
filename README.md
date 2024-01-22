@@ -12,8 +12,8 @@ Projeto do bootcamp Potêncial tech Ifood - Desenvolvimento de Jogos, patrocidad
 Jogo da memória desenvolvido utilizando tecnologias web, como html, css e javascript.
 
 ![Badge](https://img.shields.io/github/last-commit/Epiled/memory-game?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/code-size/Epiled//memory-game?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/count/Epiled//memory-game?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/code-size/Epiled/memory-game?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/count/Epiled/memory-game?style=for-the-badge)
 ![Bagde](https://img.shields.io/badge/repo%20status-Beta-cyan?style=for-the-badge)
 ![Bagde](https://img.shields.io/github/v/release/Epiled/memory-game?style=for-the-badge)
 ![Bagde](https://img.shields.io/github/license/Epiled/memory-game?style=for-the-badge)
