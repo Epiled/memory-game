@@ -4,14 +4,12 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  background: linear-gradient(
-    325deg, 
-    #03001e 0%, 
-    #7300c0 30%,
-    #ec38bc 70%,
-    #fdeff9 100%
-    );
-    padding: 4rem 6rem;
+  background: linear-gradient(325deg,
+      #03001e 0%,
+      #7300c0 30%,
+      #ec38bc 70%,
+      #fdeff9 100%);
+  padding: 4rem 6rem;
 }
 
 h2 {
