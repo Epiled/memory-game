@@ -7,6 +7,8 @@ Projeto do bootcamp Potêncial tech Ifood - Desenvolvimento de Jogos, patrocidad
 | :sparkles: Nome        | **Memory Game**
 | :label: Tecnologias | html, css, js
 
+![banner](https://github.com/Epiled/memory-game/assets/55258483/c37df12e-cab1-4686-9ad4-87a7ef54083c)
+
 <h2 id="detalhes-do-projeto"> 📃 Detalhes do projeto </h2>
 
 Jogo da memória desenvolvido utilizando tecnologias web, como html, css e javascript.
@@ -26,11 +28,16 @@ Jogo da memória desenvolvido utilizando tecnologias web, como html, css e javas
 
 <!--ts-->
    * [Detalhes do projeto](#detalhes-do-projeto)
+   * [Demonstração](#demonstracao)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
    * [Tecnologias](#tecnologias)
    * [Autor](#autor)
 <!--te-->
+
+<h2 id="demonstracao"> 👀 Demonstração </h2>
+
+https://github.com/Epiled/memory-game/assets/55258483/8ed13163-9e6d-46b3-ab8d-7a7884857491
 
 <h2 id="instalacao"> ⚙ Instalação </h2>
 
@@ -42,7 +49,7 @@ Jogo da memória desenvolvido utilizando tecnologias web, como html, css e javas
 <h2 id="como-usar"> 👩‍🏫 Como usar </h2>
 
 ```
-1. Abra o arquivo index.html no navegador
+1. Abra o arquivo index.html no navegador (Recomendado usar Live Server)
 ```
 
 <h2 id="tecnologias"> 🛠 Tecnologias </h2>
