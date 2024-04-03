@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory - game</title>
+
+  <meta name="description" content="Jogo da memória">
+
+  <link rel="shortcut icon" href="./src/assets/favicon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <link rel="stylesheet" href="./src/styles/digimon.css">
+</head>
+
+<body>
+
+  <div class="container" data-game="digimon">
+    <h2 class="titulo">Memory Game</h2>
+    <div class="game"></div>
+    <button class="reset" onclick="window.location.reload()">
+      Reset Game
+    </button>
+  </div>
+
+  <script type="module" src="./src/scripts/engine.js"></script>
+</body>
+
+</html>

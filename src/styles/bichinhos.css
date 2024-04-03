@@ -1,0 +1,24 @@
+body {
+  background-image: url(../assets/bichinhos/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo {
+  color: #fc9c0c;
+  text-shadow: .3rem .3rem 0 #000000;
+}
+
+.reset {
+  background: #fc9c0c;
+  color: #000000;
+}
+
+.reset:hover {
+  background: #c87a04;
+}
+
+.item::after {
+  background-image: url(../assets/bichinhos/bg-card-bichinhos.jpg);
+  padding: .5rem;
+}

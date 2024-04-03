@@ -1,0 +1,22 @@
+.bg {
+  background-image: url(../assets/bg.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bichinhos {
+  background-image: url(../assets/bichinhos/bg.jpg);
+}
+
+.pokemon {
+  background-image: url(../assets/pokemon/bg.gif);
+}
+
+.digimon {
+  background-image: url(../assets/digimon/bg.jpg);
+}
+
+.yugioh {
+  background-image: url(../assets/yugioh/bg.jpg);
+}

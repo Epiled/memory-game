@@ -4,13 +4,11 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  background: linear-gradient(325deg,
-      #03001e 0%,
-      #7300c0 30%,
-      #ec38bc 70%,
-      #fdeff9 100%);
+  background: rgba(255, 255, 255, 0.75);
   padding: 4rem 2rem;
   margin: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 .25rem .25rem .25rem rgba(44, 44, 44, 0.5);
 }
 
 @media screen and (min-width: 768px) {
@@ -19,9 +17,9 @@
   }
 }
 
-h2 {
+.titulo {
   font-size: 3rem;
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: .1rem;
 }
@@ -37,10 +35,11 @@ h2 {
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 600;
+  border-radius: .5rem;
 }
 
 .reset:focus {
-  color: #ec38bc;
+  color: #ffffff;
   background-color: #262809;
 }
 
@@ -67,6 +66,12 @@ h2 {
   font-size: 5rem;
   transform: rotateY(0deg);
   transition: .25s;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.item:hover {
+  box-shadow: 0 0 0 .25rem #ed6008da;
 }
 
 @media screen and (min-width: 768px) {
@@ -84,6 +89,15 @@ h2 {
   transition: .25s;
   transform: rotateY(0deg);
   backface-visibility: hidden;
+  border-radius: 1rem;
+  background-position: center;
+  background-size: contain;
+}
+
+.item__image {
+  width: 10rem;
+  height: auto;
+  padding: 1rem;
 }
 
 .item.boxOpen {

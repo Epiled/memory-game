@@ -1,0 +1,61 @@
+.opcoes {
+  display: flex;
+  gap: 2rem;
+}
+
+.opcao__link {
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 1 / 1;
+  width: 15rem;
+  text-align: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: transform .25s;
+}
+
+.opcao__link:hover {
+  transform: translateY(-1rem) scale(1.1);
+}
+
+.opcao__mold {
+  border-radius: 1rem;
+  overflow: hidden;
+  border: .5rem solid #000;
+  background-color: #fff;
+  padding: 1.5rem;
+}
+
+.opcao__image {
+  width: 100%;
+  height: auto;
+}
+
+.opcao__text {
+  font-size: 2.4rem;
+  font-weight: 700;
+  opacity: 0;
+  transition: transform .25s, opacity .25s;
+  transform: translateY(1rem);
+}
+
+.opcao__link:hover .opcao__text {
+  opacity: 1;
+  transform: translateY(0rem);
+}
+
+[data-tipo="bichinhos"] .opcao__mold {
+  border: .5rem solid #fc9c0c;
+}
+
+[data-tipo="pokemon"] .opcao__mold {
+  border: .5rem solid #fc100c;
+}
+
+[data-tipo="digimon"] .opcao__mold {
+  border: .5rem solid #000fe2;
+}
+
+[data-tipo="yugioh"] .opcao__mold {
+  border: .5rem solid #d5ae01;
+}

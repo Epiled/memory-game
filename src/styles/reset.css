@@ -146,6 +146,15 @@ table {
   font-family: 'Press Start 2P', system-ui;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 * {
   box-sizing: border-box;
 }

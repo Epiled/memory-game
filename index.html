@@ -1,30 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory - game</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Memory -game</title>
+    <meta name="description" content="Jogo da memória" />
 
-  <meta name="description" content="Jogo da memória">
+    <link
+      rel="shortcut icon"
+      href="./src/assets/favicon.png"
+      type="image/x-icon"
+    />
 
-  <link rel="shortcut icon" href="./src/assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <link rel="stylesheet" href="./src/styles/opcoes.css" />
 
-  <link rel="stylesheet" href="./src/styles/reset.css">
-  <link rel="stylesheet" href="./src/styles/main.css">
-</head>
+  </head>
 
-<body>
+  <body class="bg">
+    <div class="container">
+      <h2 class="titulo">Memory Game</h2>
 
-  <div class="container">
-    <h2>Memoery Game</h2>
-    <div class="game"></div>
-    <button class="reset" onclick="window.location.reload()">
-      Reset Game
-    </button>
-  </div>
+      <div class="opcoes">
+        <a class="opcao__link" href="bichinhos.html" data-tipo="bichinhos">
+          <div class="opcao__mold">
+            <img class="opcao__image" src="./src/assets/bichinhos/bg-card-bichinhos.jpg" />
+          </div>
+          <p class="opcao__text">Bichinhos</p>
+        </a>
 
-  <script src="./src/scripts/engine.js"></script>
-</body>
+        <a class="opcao__link" href="pokemon.html" data-tipo="pokemon">
+          <div class="opcao__mold">
+            <img class="opcao__image" src="./src/assets/pokemon/bg-card-pokemon.webp" />
+          </div>
+          <p class="opcao__text">Pokémon</p>
+        </a>
 
+        <a class="opcao__link" href="digimon.html" data-tipo="digimon">
+          <div class="opcao__mold">
+            <img class="opcao__image" src="./src/assets/digimon/bg-card-digimon.png" />
+          </div>
+          <p class="opcao__text">Digimon</p>
+        </a>
+
+        <a class="opcao__link" href="yugioh.html" data-tipo="yugioh">
+          <div class="opcao__mold">
+            <img class="opcao__image" src="./src/assets/yugioh/bg-card-yugioh.png" />
+          </div>
+          <p class="opcao__text">Yu-Gi-Oh</p>
+        </a>
+      </div>
+
+    </div>
+
+    <script src="./src/scripts/opcoes.js"></script>
+  </body>
 </html>

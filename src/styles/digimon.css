@@ -1,0 +1,29 @@
+body {
+  background-image: url(../assets/digimon/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo {
+  color: #000fe2;
+  text-shadow: .3rem .3rem 0 #000000;
+}
+
+.reset {
+  background: #000fe2;
+  color: #ffffff;
+}
+
+.reset:hover {
+  background: #000a9d;
+}
+
+.item:hover {
+  box-shadow: 0 0 0 .25rem #000a9d;
+}
+
+.item::after {
+  background-image: url(../assets/digimon/bg-card-digimon.png);
+  background-color: #ffffff;
+  padding: .5rem;
+}
